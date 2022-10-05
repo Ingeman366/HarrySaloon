@@ -1,3 +1,5 @@
-public enum Month {
-    JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+import java.util.ArrayList;
+
+public class Month {
+    private ArrayList<Day> daysOfMonth = new ArrayList();
 }
